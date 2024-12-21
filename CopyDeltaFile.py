@@ -3,6 +3,10 @@ from delta.tables import DeltaTable
 from pyspark.sql.functions import col, lit
 import datetime
 
+####################################################
+# Copy a delta file, primarely though the verisons, but also via delta calculation if some versions are erased.
+
+
 # Initialize Spark Session with Delta Lake
 spark = SparkSession.builder \
     .appName("DeltaTableSync") \
