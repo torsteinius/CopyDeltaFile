@@ -5,6 +5,7 @@ import datetime
 
 ####################################################
 # Copy a delta file, primarely though the verisons, but also via delta calculation if some versions are erased.
+# Code is PySpark
 
 
 # Initialize Spark Session with Delta Lake
